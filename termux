@@ -1,0 +1,14 @@
+pkg update && pkg upgrade
+pkg install php
+pkg install nano
+pkg install git
+pkg install python
+termux-setup-storage
+pkg install wget
+pkg install python2
+pkg install pip
+pip install --upgrade pip
+pkg install bs4
+pip install requests
+pip install -r requirements.txt
+
